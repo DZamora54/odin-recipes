@@ -1,6 +1,7 @@
 body {
   background-color: #f1a9a9;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0px 20px;
 }
 
 h1 {
@@ -10,6 +11,9 @@ h1 {
 #recipe-list {
   list-style-type: none;
   text-align: center;
+  margin: auto;
+  width: fit-content;
+  padding: 0px;
 }
 
 img {
@@ -21,6 +25,7 @@ img {
 
 .recipe-description {
   padding-left: 30px;
+  max-width: 75ch;
 }
 
 li {
@@ -32,3 +37,18 @@ li {
   margin-bottom: 10px;
 }
 
+section {
+  display: inline-block;
+  margin: auto;
+  vertical-align: top;
+}
+
+.return-home {
+  display: block;
+  text-align: center;
+}
+
+div {
+  width: fit-content;
+  margin: auto;
+}
